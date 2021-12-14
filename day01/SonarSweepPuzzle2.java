@@ -33,6 +33,6 @@ public class SonarSweepPuzzle2 {
             if(al.get(i+1)>al.get(i))
                 count++;
         }
-        System.out.println("Output is "+count);
+        System.out.println("The Output is "+count);
     }
 }

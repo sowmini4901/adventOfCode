@@ -17,6 +17,6 @@ public class SonarSweep {
 			  break;
 	  }
 	  scan.close();
-	System.out.println("Output is "+count);
+	System.out.println("The Output is "+count);
   }
 }
