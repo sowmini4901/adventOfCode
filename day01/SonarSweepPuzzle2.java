@@ -1,13 +1,13 @@
+//https://adventofcode.com/2021/day/1
 package day01;
 import java.util.*;
-import java.io.*;
 public class SonarSweepPuzzle2 {
     public static void main(String [] args) {
         Scanner scan=new Scanner(System.in);
         int a=scan.nextInt();
         int b=scan.nextInt();
         int c=scan.nextInt();
-        int minus=a;
+    
         int sum=a+b+c;
       ArrayList<Integer> al=new ArrayList<Integer>();
       ArrayList<Integer> al2=new ArrayList<Integer>();
@@ -28,11 +28,11 @@ public class SonarSweepPuzzle2 {
             }
         }
         int count=0;
-  
+  scan.close();
         for(i=0;i<al.size()-1;i++) {
             if(al.get(i+1)>al.get(i))
                 count++;
         }
-        System.out.println(count);
+        System.out.println("Output is "+count);
     }
 }

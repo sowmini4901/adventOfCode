@@ -1,6 +1,6 @@
+//https://adventofcode.com/2021/day/1
 package day01;
 import java.util.*;
-import java.io.*;
 public class SonarSweep {
   public static void main(String [] args) {
 	  Scanner scan=new Scanner(System.in);
@@ -16,6 +16,7 @@ public class SonarSweep {
 		  if(a==5881)
 			  break;
 	  }
+	  scan.close();
 	System.out.println("Output is "+count);
   }
 }
