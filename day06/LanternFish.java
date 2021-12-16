@@ -1,3 +1,4 @@
+////https://adventofcode.com/2021/day/6
 package day06;
 import java.util.*;
 public class LanternFish {

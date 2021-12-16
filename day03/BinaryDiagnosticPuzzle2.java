@@ -1,3 +1,4 @@
+////https://adventofcode.com/2021/day/3
 package day03;
 import java.util.*;
 public class BinaryDiagnosticPuzzle2 {

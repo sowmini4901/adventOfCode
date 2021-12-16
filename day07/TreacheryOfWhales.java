@@ -1,3 +1,4 @@
+////https://adventofcode.com/2021/day/7
 package day07;
 import java.util.*;
 public class TreacheryOfWhales {
